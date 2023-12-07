@@ -4,11 +4,11 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #090b0d;
+  background-color: black;
 }
 main {
-  background-color: #090b0d;
-  background-image: url("bg.jpg");
+  
+  background-image: url("pppp.jpg");
   background-size: cover;
   background-position: center;`
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ main {
 
 header {
   text-align: center;
-  background-color: #090b0d;
+  background-color: #d4dae0;
   padding: 20px;
   color: #db1313;
 }
@@ -29,9 +29,9 @@ main {
 h1 {
   font-size: 40px;
   margin-bottom: 20px;
-  font-family: fantasy;
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-  color: aquamarine;
+  color: rgb(0, 0, 0);
 }
 
 p {

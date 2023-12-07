@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Porsche 930</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <!-- Global header -->
+  <header>
+    <h1>Porsche 930</h1>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <h1>Contact Us</h1>
+    <p>If you have any questions or inquiries about the Porsche 930, feel free to get in touch with us. We are here to assist you!</p>
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <p><strong>Email:</strong> contact@porsche930.com</p>
+      <p><strong>Phone:</strong> +1 (555) 987-6543</p>
+      <p><strong>Address:</strong> 456 Speed Avenue, Sportstown</p>
+    </div>
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form action="submit_form.php" method="post">
+        <label for ="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </div>
+    
+    <!-- Buttons linking to other pages -->
+    <a href="index.html" class="button">Back to Home</a>
+    <a href="product.html" class="button">View Product</a>
+    <a href="about.html" class="button">About Us</a>
+  </main>
+  
+  <!-- Global footer -->
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+</body>
+</html>
